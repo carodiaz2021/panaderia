@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descripcion" content="pagina de panaderia cocu" />
+    <meta name="author" content="Carolina" />
+    <meta name="keywords" content="pan, tortillas, masas finas, facturas" />
+    <link rel="stylesheet" href="../ccs/bootstrap.min.css" />
+    <link rel="stylesheet" href="../ccs/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4f23669245.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de la panaderia cocu"
+              width="90"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navPanaderia"
+            aria-controls="navPanaderia"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navPanaderia">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="my-5">
+        <h1 class="display-2 text-center">Contacto</h1>
+        <hr />
+        <article class="row">
+          <div class="col-sm-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreApellido"
+                  placeholder="Juan Perez"
+                  required
+                  minlength="3"
+                  maxlength="35"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="juanperez@gmail.com"
+                  required
+                  maxlength="50"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  id="consulta"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Agregue su mensaje aqui..."
+                  maxlength="250"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+            <div>
+              <div class="col-sm-12 col-md-6">
+                <iframe
+                  src="https://www.google.com.ar/maps/place/RollingCode+School/@-26.8489636,-65.4368418,11z/data=!4m12!1m6!3m5!1s0x94225d3ad7f30f1d:0xf8606cd659b8e3e4!2sRollingCode+School!8m2!3d-26.8367097!4d-65.2072045!3m4!1s0x94225d3ad7f30f1d:0xf8606cd659b8e3e4!8m2!3d-26.8367097!4d-65.2072045"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

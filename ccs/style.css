@@ -1,0 +1,15 @@
+.efectoimg: :hover{
+    filte
+}
+
+
+
+
+
+
+@media all and (max-with: 576px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+}
